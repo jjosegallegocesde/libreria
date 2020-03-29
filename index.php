@@ -5,12 +5,11 @@ Constructor por defecto, prestamo*/
 
 include('Libro.php');
 
-$libro1 = new Libro("100 años de soledad","Gabriel Garcia Marquez",0,0);
+$libro1 = new Libro("100 años de soledad","García Marquez",1,0);
 
-$libro1->prestamo();
-
-
-
+$libro1->prestamo(); //Aqui alguien presta un libro de 100 años de soledad
+echo("<br>");
+$libro1->prestamo(); //Aqui alguien mas presta un libro de 100 años de soledad
 
 
 ?>
